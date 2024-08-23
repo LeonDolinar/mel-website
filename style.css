@@ -385,6 +385,12 @@ input:-webkit-autofill:focus {
     opacity: 0.8
 }
 
+@media (max-width: 515px) {
+    .header-text {
+        margin-top: 50px;
+    }
+}
+
 .header-text h2 {
     margin-bottom: 20px;
     font-size: 40px;
