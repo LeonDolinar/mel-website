@@ -368,7 +368,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/background-1.jpg') no-repeat scroll center center / cover;
 }
 
 .overlay {
@@ -596,55 +596,11 @@ input:-webkit-autofill:focus {
 }
 
 /***
-*Testimonial-Page
-***/
-
-.testimonial-area {
-    background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
-    position: relative;
-    color: #ffffff;
-}
-
-.testimonial-area:before {
-    opacity: 0.9
-}
-
-.testimonial {
-    text-align: center;
-}
-
-.testimonial .testimonial-photo {
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-right: 30px;
-    border-radius: 50%;
-    -webkit-box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
-    box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
-    position: relative;
-}
-
-.testimonial .testimonial-photo:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
-}
-
-.testimonials.owl-carousel .owl-controls .owl-nav {
-    text-align: center;
-}
-
-
-/***
 *Price-area
 ***/
 
 .price-area {
-    background: url('images/parallax-6.jpg') no-repeat scroll center center / cover
+    background: url('images/background-2.jpg') no-repeat scroll center center / cover
 }
 
 .price-table h3 {
