@@ -78,13 +78,6 @@
     var magnifPopup = function () {
         $('.work-popup').magnificPopup({
             type: 'iframe',
-            iframe: {
-                markup: '<div class="mfp-iframe-scaler">'+
-                            '<div class="mfp-close"></div>'+
-                            '<iframe class="mfp-iframe" frameborder="0" allow="autoplay" allowfullscreen></iframe>'+
-                        '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
-
-            },
             removalDelay: 300,
         });
     };
