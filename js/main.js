@@ -20,20 +20,7 @@
         scrollSpeed: 900,
         animation: 'fade'
     });
-    /* testimonials Slider Active
-    =============================*/
-    $('.testimonials').owlCarousel({
-        loop: true,
-        margin: 0,
-        responsiveClass: true,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
-        items: 1
-    });
-    /* testimonials Slider Active
+    /* Carousels
     =============================*/
     $('.screen-slider').owlCarousel({
         loop: true,
@@ -49,26 +36,25 @@
         animateOut: 'fadeOut',
         center: true,
     });
-    /* testimonials Slider Active
-    =============================*/
-    $('.clients').owlCarousel({
+    $(".price-carousel").owlCarousel({
+        items: 1,
         loop: true,
-        margin: 30,
-        responsiveClass: true,
         nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
+        dots: false,
         navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        autoplay: false,
+        autoplayTimeout: 5000,
+        touchDrag: false,
+        mouseDrag: false,
         responsive: {
             0: {
-                items: 3,
+                items: 1
             },
             600: {
-                items: 4
+                items: 1
             },
             1000: {
-                items: 6
+                items: 1
             }
         }
     });
