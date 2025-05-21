@@ -78,11 +78,6 @@
 
     $('#accordion .panel-title a').prepend('<span></span>');
 
-
-
-
-
-
     //Function to animate slider captions 
     function doAnimations(elems) {
         //Cache the animationend event in a variable
@@ -110,16 +105,11 @@
     //Pause carousel  
     $myCarousel.carousel('pause');
 
-
     //Other slides to be animated on carousel slide event 
     $myCarousel.on('slide.bs.carousel', function (e) {
         var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
         doAnimations($animatingElems);
     });
-
-
-
-
 
     // Select all links with hashes
     $('.mainmenu-area a[href*="#"]')
@@ -156,11 +146,6 @@
                 }
             }
         });
-
-
-
-
-
 
     /* Preloader Js
     ===================*/

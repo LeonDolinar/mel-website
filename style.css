@@ -429,6 +429,11 @@ input:-webkit-autofill:focus {
     margin: auto;
 }
 
+.screen-slider.owl-carousel .owl-nav {
+    position: relative;
+    bottom: 0;
+}
+
 .carousel-wrapper {
     position: relative;
     margin-bottom: 60px;
@@ -436,7 +441,7 @@ input:-webkit-autofill:focus {
 
 .owl-carousel .owl-nav {
     position: absolute;
-    bottom: -30px;
+    top: -80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -449,37 +454,6 @@ input:-webkit-autofill:focus {
     font-size: 2rem;
     margin: 0 10px;
 }
-
-/*.owl-carousel .owl-item {
-    text-align: center;
-}
-
-.owl-controls {
-    position: absolute;
-    left: 0;
-    top: 100%;
-}
-
-.owl-controls .owl-nav > div {
-    display: inline-block;
-    margin: 0 15px;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-}
-
-.owl-controls .owl-nav {
-    position: relative;
-    margin-top: 0;
-}
-
-.owl-controls .owl-nav:after {
-    position: absolute;
-    left: 50%;
-    top: 12px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}*/
 
 /**
 *Caption-slider
